@@ -1,0 +1,229 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    text-align: center;
+    background: url("bg.jpg") no-repeat;
+    background-size: 100%;
+    max-height: 100%;
+    max-width: 100%;
+
+}
+.navbar {
+    background-color: lightskyblue;
+    margin: 0;
+    
+}
+.navbar ul{
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.navbar ul a {
+    color: black;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+.navbar ul a li {
+    padding: 10px 50px;
+    font-size: 19px;
+}
+.logo {
+    height: 50px;
+}
+.navbar ul a:hover {
+    background-color: pink;
+    transition: 10ms;
+}
+.pfp {
+    height: 300px;
+    width: 300px;
+    
+}
+.intro{
+    color: white;
+    padding-top: 100px;
+    margin-bottom: 300px;
+}
+.welcome {
+    font-size:35px;
+    margin-bottom: 0;
+}
+button{
+    height: 40px;
+    width: 200px;
+    background-color: pink;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.images{
+    margin: 50px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.img1 {
+    border: 2px solid black;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px 3px dimgray;
+    overflow: hidden;
+    height: 350px;
+    width: 250px;
+    background: url("images/img1.jpg");
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.img2 {
+    box-shadow: 5px 5px 5px 3px dimgray;
+    overflow: hidden;
+    border: 2px solid black;
+    border-radius: 30px;
+    height: 350px;
+    width: 250px;
+    background: url("images/img2.jpg");
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.img3 {
+    box-shadow: 5px 5px 5px 3px dimgray;
+    overflow: hidden;
+    border: 2px solid black;
+    border-radius: 30px;
+    height: 350px;
+    width: 250px;
+    background: url("images/img3.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.img4 {
+    box-shadow: 5px 5px 5px 3px dimgray;
+    overflow: hidden;
+    border: 2px solid black;
+    border-radius: 30px;
+    height: 350px;
+    width: 250px;
+    background: url("images/img4.jpg");
+    background-size: cover;
+    background-position:right;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.images h3  {
+    color: black;
+    margin: 0;
+    background-color: rgba(237, 231, 225, 0.4) ;
+    padding: 20px 0;
+}
+.img1:hover{
+    background-image: url(images/img1.1.jpg);
+    background-position: center;
+    scale: 1.1;
+    transition: 0.3s;
+}
+.img2:hover{
+    background-image: url(images/img2.1.jpg);
+    background-position: center;
+    scale: 1.1;
+    transition: 0.3s;
+}
+.img3:hover{
+    background-image: url(images/img3.1.jpg);
+    background-position: center;
+    scale: 1.1;
+    transition: 0.3s;
+}
+.img4:hover{
+    background-image: url(images/img4.1.jpg);
+    background-position: center;
+    scale: 1.1;
+    transition: 0.3s;
+}
+.skills ul {
+    width: 100%;
+    padding: 0;
+    list-style-type:none;
+    display: inline-block;
+    text-align: left;
+}
+.skills{
+    padding-top: 30px;
+    color: black;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.info{
+    text-align: center;
+    background-color: white;
+    max-width: 1100px;
+    padding-bottom: 30px;
+    margin: auto;
+    border-radius: 20px;
+}
+.educ{
+    padding-top: 30px;
+    color: black;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.educ ul{
+    width: 100%;
+    padding: 0;
+    list-style-type: none;
+    display: inline-block;
+    text-align: left;
+}
+.proj{
+    padding-top: 30px;
+    color: black;
+    margin-bottom: 50px;
+}
+.proj ul {
+    width: 100%;
+    padding: 0;
+    list-style-type: none;
+    display: inline-block;
+    text-align: left;
+}
+.proj ul li {
+    padding-bottom: 10px;
+}
+.contacts{
+    padding-top: 30px;
+    color: black;
+    margin-bottom: 50px;
+}
+.contacts ul {
+    width: 100%;
+    padding: 0;
+    list-style-type: none;
+    display: inline-block;
+    text-align: left;
+}
+.contacts ul li {
+    padding-bottom: 10px;
+}
+footer{
+    margin-top: 50px;
+    color: black;
+    height: 60px;
+    background-color: lightblue;
+}
+footer p {
+    margin-top: 0;
+    padding-top: 25px;
+}
